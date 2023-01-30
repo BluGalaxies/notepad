@@ -1,4 +1,7 @@
 Fivem Notepad
+
+Changed esx to standalone enjoy
+
 ===================================
 ## Pictures
 ![alt text](https://i.imgur.com/hie3acy.png)
