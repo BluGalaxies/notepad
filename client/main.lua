@@ -1,17 +1,10 @@
-ESX = nil
+
 local isUiOpen = false 
 local object = 0
 local TestLocalTable = {}
 local editingNotpadId = nil
 
 local NotepadText = "~g~E~s~ to read,~g~G~s~ to destroy"
-
-Citizen.CreateThread(function()
-    while ESX == nil do
-        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-        Citizen.Wait(0) -- Delete This
-    end
-end)
 
 function DrawText3Ds(x,y,z, text)
     local onScreen,_x,_y=World3dToScreen2d(x,y,z)
